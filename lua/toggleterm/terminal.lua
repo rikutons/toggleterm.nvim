@@ -381,6 +381,7 @@ function Terminal:__spawn()
   })
   self.name = cmd
   self.dir = dir
+  vim.cmd("stopinsert")
 end
 
 ---@private
